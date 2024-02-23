@@ -101,7 +101,7 @@ def send_help(chat_id, text, keyboard=None):
 
     if not keyboard:
         kb = paginate_modules(0, HELPABLE, "help")
-        # kb.append([InlineKeyboardButton(text='Support', url='https://t.me/YorkTownEagleUnion'),
+        # kb.append([InlineKeyboardButton(text='Chat', url='https://t.me/AlphaHuntersInd'),
         #           InlineKeyboardButton(text='Back', callback_data='start_back'),
         #           InlineKeyboardButton(text="Try inline", switch_inline_query_current_chat="")])
         keyboard = InlineKeyboardMarkup(kb)
@@ -153,15 +153,15 @@ def start(update: Update, context: CallbackContext):  # sourcery no-metrics
                         [
                             InlineKeyboardButton(
                                 text=gs(chat.id, "support_chat_link_btn"),
-                                url='https://t.me/YorktownEagleUnion',
+                                url='https://t.me/AlphaHuntersInd',
                             ),
                             InlineKeyboardButton(
                                 text=gs(chat.id, "updates_channel_link_btn"),
-                                url="https://t.me/KigyoUpdates",
+                                url="https://t.me/AlphaHuntersAnn",
                             ),
                             InlineKeyboardButton(
                                 text=gs(chat.id, "src_btn"),
-                                url="https://github.com/AnimeKaizoku/EnterpriseALRobot/",
+                                url="google.com/",
                             ),
                         ],
                         [
@@ -717,10 +717,10 @@ def main():
         updater.start_webhook(listen="0.0.0.0", port=PORT, url_path=TOKEN, allowed_updates=Update.ALL_TYPES, 
                             webhook_url=URL+TOKEN, drop_pending_updates=KInit.DROP_UPDATES, 
                             cert=CERT_PATH if CERT_PATH else None)
-        log.info(f"Kigyo started, Using webhooks. | BOT: [@{dispatcher.bot.username}]")
+        log.info(f"ALPHA started, Using webhooks. | BOT: [@{dispatcher.bot.username}]")
 
     else:
-        log.info(f"Kigyo started, Using long polling. | BOT: [@{dispatcher.bot.username}]")
+        log.info(f"ALPHAROBO started, Using long polling. | BOT: [@{dispatcher.bot.username}]")
         KigyoINIT.bot_id = dispatcher.bot.id
         KigyoINIT.bot_username = dispatcher.bot.username
         KigyoINIT.bot_name = dispatcher.bot.first_name
