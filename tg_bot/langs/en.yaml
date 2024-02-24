@@ -10,7 +10,7 @@ set_chat_lang: "Great, {} it is from now on!"
 
 pm_start_text: |
    Hi {}, I'm {},
-   I am an Anime themed group management bot with some fun extras ;)
+   wasup? ☠️ 
    
    I can do a variety of things, most common of em are:
    - Restrict users with *ban permissions*.
@@ -25,12 +25,12 @@ pm_start_text: |
    
    *Click on help to learn more!*
    
-grp_start_text: "Hi, I'm Kigyo."
+grp_start_text: "Wen fi 1 Dollah?"
 
 pm_help_text: |
-   Hello there! My name is *Kigyo*. A part of *Eagle Union*.
+   Hello there! My name is *AlphRobo*. A part of *AlphaHunters*.
    I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of
-   the things I can help you with.
+   the things I can help you with. Made with ♥️ by @Its_Pranav_xD
    *Main* commands available:
     • /start: Starts me, can be used to check I'm alive or not.
     • /help: PM's you this message.
@@ -40,10 +40,10 @@ pm_help_text: |
       - in a group: will redirect you to pm, with all that chat's settings.
     Click on the buttons below to get documentation about specific modules!
 
-add_bot_to_group_btn: "Add Kigyo"
-support_chat_link_btn: "Support"
-updates_channel_link_btn: "Updates"
-src_btn: "Source code"
+add_bot_to_group_btn: "Add Me"
+support_chat_link_btn: "Channel"
+updates_channel_link_btn: "Chat"
+src_btn: "Deployed By"
 
 admin_help: |
    • `/admins`*:* list of admins in the chat
